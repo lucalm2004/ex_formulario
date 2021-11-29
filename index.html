@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex_Formulario</title>
+    <style>
+        input,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        
+        form {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Formulario para registrar mascota</h2>
+    <input type="text" placeholder="nombre">
+    <input type="date" name="" id="">
+    <select name="seleccione región" id="">
+        <option value="">seleccione región</option>
+    <option value="">Catalunya</option>
+    <option value="">Valencia</option>
+    <option value="">Andaluzia</option>
+</select>
+    <input type="submit" value="Enviar Datos">
+
+    <h2>Formulario para registrar alumnos</h2>
+    <label for="">Nombre</label>
+    <input type="text" name="" id="" placeholder="nombre">
+    <label for="">Primer apellido</label>
+    <input type="text" name="" id="" placeholder="primer apellido">
+    <label for="">Segundo apellido</label>
+    <input type="text" name="Segundo apellido" id="" placeholder="Segundo apellido">
+    <label for="">Datos del autor</label>
+    <input type="text" name="nombre y apellido del tutor/a" id="" placeholder="nombre y apellido del tutor/a">
+    <label for="">Edad</label>
+    <input type="date" name="" id="">
+    <label for="">Estudios de procedencia</label>
+    <select name="" id="">
+        <option value="">seleccione estudios de procedencia</option>
+        <option value="">ESO</option>
+        <option value="">BAT</option>
+        <option value="">FP</option>
+    </select>
+    <input type="submit" value="Enviar datos alumnos">
+</body>
+
+</html>
